@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" date="2022-01-13T13:13:13+13:13">
+		<body>
+			<trans-unit id="headertype" resname="headertype">
+				<source>Header Type</source>
+			</trans-unit>
+			<trans-unit id="subheadertype" resname="subheadertype">
+				<source>Subheader Type</source>
+			</trans-unit>
+			<trans-unit id="header_layout" resname="header_layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="type.I.h1" resname="type.I.h1">
+				<source>H1</source>
+			</trans-unit>
+			<trans-unit id="type.I.h2" resname="type.I.h2">
+				<source>H2</source>
+			</trans-unit>
+			<trans-unit id="type.I.h3" resname="type.I.h3">
+				<source>H3</source>
+			</trans-unit>
+			<trans-unit id="type.I.h4" resname="type.I.h4">
+				<source>H4</source>
+			</trans-unit>
+			<trans-unit id="type.I.h5" resname="type.I.h5">
+				<source>H5</source>
+			</trans-unit>
+			<trans-unit id="type.I.h6" resname="type.I.h6">
+				<source>H6</source>
+			</trans-unit>
+				<trans-unit id="type.I.p" resname="type.I.p">
+					<source>P</source>
+				</trans-unit>
+				<trans-unit id="type.I.span" resname="type.I.span">
+					<source>Span</source>
+				</trans-unit>
+			<trans-unit id="type.I.default" resname="type.I.default">
+				<source>Default</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
