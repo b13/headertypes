@@ -5,79 +5,79 @@ call_user_func(static function () {
         'tx_headertypes_headertype' => [
             'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:headertype',
             'config' => [
-                'default' => '0',
+                'default' => 0,
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.default',
-                        '0'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.default',
+                        'value' => 0,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h1',
-                        '1'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h1',
+                        'value' => 1,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h2',
-                        '2'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h2',
+                        'value' => 2,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h3',
-                        '3'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h3',
+                        'value' => 3,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h4',
-                        '4'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h4',
+                        'value' => 4,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h5',
-                        '5'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h5',
+                        'value' => 5,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h6',
-                        '6'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h6',
+                        'value' => 6,
                     ],
-                ]
-            ]
+                ],
+            ],
         ],
         'tx_headertypes_subheadertype' => [
             'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:subheadertype',
             'config' => [
-                'default' => '0',
+                'default' => 0,
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.default',
-                        '0'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.default',
+                        'value' => 0,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h1',
-                        '1'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h1',
+                        'value' => 1,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h2',
-                        '2'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h2',
+                        'value' => 2,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h3',
-                        '3'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h3',
+                        'value' => 3,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h4',
-                        '4'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h4',
+                        'value' => 4,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h5',
-                        '5'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h5',
+                        'value' => 5,
                     ],
                     [
-                        'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h6',
-                        '6'
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h6',
+                        'value' => 6,
                     ],
-                ]
-            ]
-        ]
+                ],
+            ],
+        ],
     ];
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns(

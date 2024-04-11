@@ -8,7 +8,5 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'typo3@b13.com',
     'author_company' => 'b13 GmbH, Stuttgart',
     'state' => 'stable',
-    'uploadfolder' => 0,
-    'clearCacheOnLoad' => 1,
-    'version' => '1.0.0'
+    'version' => '1.0.0',
 ];
