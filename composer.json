@@ -8,7 +8,8 @@
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "headertypes"
+      "extension-key": "headertypes",
+      "version": "1.2.1"
     }
   }
 }
