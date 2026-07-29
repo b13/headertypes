@@ -37,6 +37,14 @@ call_user_func(static function () {
                         'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h6',
                         'value' => 6,
                     ],
+                    [
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.p',
+                        'value' => 7,
+                    ],
+                    [
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.span',
+                        'value' => 8,
+                    ],
                 ],
             ],
         ],
@@ -74,6 +82,14 @@ call_user_func(static function () {
                     [
                         'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.h6',
                         'value' => 6,
+                    ],
+                    [
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.p',
+                        'value' => 7,
+                    ],
+                    [
+                        'label' => 'LLL:EXT:headertypes/Resources/Private/Language/locallang.xlf:type.I.span',
+                        'value' => 8,
                     ],
                 ],
             ],
